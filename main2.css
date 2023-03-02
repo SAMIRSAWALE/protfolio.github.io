@@ -1,0 +1,338 @@
+@font-face {
+    font-family: mentoz;
+    src: url(Fonts/Montez/Montez-Regular.ttf);
+}
+
+@font-face {
+    font-family: sam;
+    src: url(Fonts/Itim/Itim-Regular.ttf);
+}
+
+@font-face {
+    font-family: sam2;
+    src: url(Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+/* ANIMATION FOR NVA SECTION */
+#navb {
+    animation-name: samir;
+    animation-duration: 20s;
+    background-color: #EAFDFC;
+    animation-fill-mode: forwards;
+}
+
+@keyframes samir {
+    form {
+        background-color: #EAFDFC;
+    }
+
+    to {
+        background-color: aquamarine;
+    }
+}
+
+
+.noa {
+    margin-bottom: 50px;
+}
+
+.nolgbtq {
+    padding-right: 30%;
+}
+
+.i2 {
+    display: block;
+    font-family: mentoz;
+}
+
+.i3 {
+    display: inline;
+    font-family: sam;
+}
+
+.cloud2,
+.cloud3 {
+    position: relative;
+    width: fit-content;
+}
+
+.cloud1 {
+    margin-left: 20%;
+    margin-bottom: 3%;
+    display: absolute;
+}
+
+.cloud2 {
+    left: 80%;
+}
+
+@media(max-width: 900px) {
+
+    .cloud3 {
+        display: none;
+    }
+
+    .cloud1,
+    .cloud2 {
+        width: 25%;
+
+        left: 10%;
+    }
+
+    .cloud2 {
+        width: 25%;
+
+        left: 70%;
+    }
+
+    #About .p11 {
+        font-size: 1rem;
+    }
+
+    #About .Aimg {
+        width: 30%;
+
+    }
+
+    #About .hrA {
+        width: 15%;
+    }
+
+    .btab .hrE {
+        width: 15%;
+    }
+
+    #Education .nana {
+        font-size: .70rem;
+    }
+
+    #Education .ooo {
+        font-size: 0.70rem;
+        padding-left: 9%;
+    }
+
+    .btab .eduimg1 {
+        width: 150px;
+        height: 100px;
+        margin-left: 10px;
+        text-align: center;
+
+    }
+
+    .btab .eduimg2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .btab .nana {
+        padding-right: 50x;
+        font-family: sam2;
+
+    }
+
+    .tdedu {
+        padding-left: 60px;
+    }
+
+    .tdedu3 {
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+
+    .btab .tdedu3 {
+        padding-left: 50px;
+    }
+
+    .weedd .btn1 {
+        width: 50%;
+
+    }
+
+    #last {
+        margin-top: 50px;
+    }
+
+    #navb .nanaaaa {
+        padding-left: 15%;
+    }
+
+    #About .p11 {
+        font-size: 0.80rem;
+    }
+
+    #contactme {
+        font-size: 0.60rem;
+    }
+
+    #navb .navimg {
+        margin-left: 0%;
+        animation-name: navimggM;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes navimggM {
+        0% {
+            margin-left: 0px;
+        }
+
+        100% {
+            margin-left: 80px;
+
+        }
+
+    }
+
+    #last .loog {
+        top: 20px;
+        left: 46%;
+        margin: 20px;
+        height: 20px;
+        width: 20px;
+
+    }
+    #navb .i3{
+        font-size: 0.70rem;
+        
+    }
+    #About{
+        padding:30px;
+    }
+    #contactme{
+        padding: 20px;
+    }
+    .para2{
+        font-size: 0.80rem;
+    }
+}
+
+/* About section */
+.Aimg {
+    margin: 5% auto;
+    width: 10%;
+}
+
+.p11 {
+    font-size: 1.50rem;
+    font-family: sam2;
+}
+
+#About h1 {
+    font-family: sam;
+    color: green;
+}
+
+.hrA {
+    border-top-style: none;
+    border-bottom-style: dotted;
+    border-left-style: none;
+    border-right-style: none;
+    width: 5%;
+    border-width: 8px;
+    border-color: grey;
+
+}
+
+.tableE {
+    margin-top: 5%;
+
+}
+
+.eduimg1 {
+
+    height: 50%;
+    width: 50%;
+    margin-left: 40%;
+}
+
+.eduimg2 {
+    border-radius: 80%;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.hh {
+    color: green;
+    font-family: sam;
+}
+
+.hrE {
+    border-top-style: none;
+    border-bottom-style: dotted;
+    border-left-style: none;
+    border-right-style: none;
+    width: 5%;
+    border-width: 8px;
+    border-color: grey;
+
+}
+
+.nana {
+    font-family: sam2;
+}
+
+.tdedu3 {
+    padding-left: 200px;
+}
+
+.para {
+    font-family: sam;
+    color: green;
+}
+
+.para2 {
+    font-family: sam2;
+}
+
+.btn1 {
+    width: 10%;
+}
+
+.loog {
+    top: 20px;
+    left: 46%;
+    margin: 20px;
+    height: 30px;
+    width: 30px;
+
+}
+
+
+.final {
+    height: 30px;
+    width: 30px;
+}
+
+
+
+#last {
+    margin-top: 50px;
+    background-color: gray;
+}
+
+
+.nanaaaa .navimg {
+    margin-left: 100px;
+    position: relative;
+    animation-name: navimgg;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes navimgg {
+    0% {
+        margin-left: 100px;
+    }
+
+    100% {
+        margin-left: 500px;
+
+    }
+}
+.ooo{
+    font-family: sam2;
+}
